@@ -7,15 +7,15 @@ h1{
     font-size:50px;
 
 }
-spAn{
+h2{
+    font-size: 40px;
+}
+span{
     color: #f0c24d;
 }
-.majba{
-    width:50%;
-    height:50%;
-}
-section{
+.flexible-container{
     display: flex;
+    margin-bottom: 100px;
 }
 
 .half-width{
@@ -39,4 +39,36 @@ section{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
 
+}
+.dream-big{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position:right ;
+    padding-top: 100px;
+}
+.experiens-item{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px gray;
+}
+.experian-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#web-developer-experience{
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice:1 ;
+    border-left: 7px solid;
+}
+#baby-developer-experience{
+    border-image: linear-gradient(red, gray);
+    border-image-slice:1 ;
+    border-left: 7px solid;
+}
+footer{
+    text-align: center;
 }
